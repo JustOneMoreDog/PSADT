@@ -1,0 +1,1 @@
+IF you go to their [documentation](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Virtualization/3.5/html/User_Guide/Installing_the_Guest_Agents_and_Drivers_on_Windows1.html) you will see how this is all done.  I extracted the ISO and put it into a `source.zip`.  I then used the switches from that documentaion to get it to do the silent install.

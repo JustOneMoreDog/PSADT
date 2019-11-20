@@ -1,0 +1,1 @@
+This is where the `Firefox Setup 66.0.3` goes
