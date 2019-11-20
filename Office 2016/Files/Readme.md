@@ -1,0 +1,1 @@
+In this folder was my `source.zip` that contained all my offline files.  I used [this guide](https://www.prajwaldesai.com/how-to-deploy-office-2016-using-sccm-2012-r2/) to help get me started.  
