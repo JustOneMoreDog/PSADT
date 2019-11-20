@@ -1,3 +1,0 @@
-PSADT Repository
-
-NVIDIA Drivers
