@@ -159,7 +159,6 @@ Try {
         #$PlainPassword = $($tsmpass.Password)
         #$BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($PlainPassword) # Like all good code, this was stolen from stack overflow
         $PlainPassword = $TSMPass #[System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
-        Write-Output "$TSMPass"
         Execute-Process -Path "C:\Program Files\Tivoli\TSM\baclient\dsmcutil.exe" -Parameters "install /name:`"TSM Client Scheduler`" /password:$PlainPassword /autostart:yes /eventlogging:yes /startnow:yes /node:$env:COMPUTERNAME" -PassThru
         
         # Cleaning up variables
